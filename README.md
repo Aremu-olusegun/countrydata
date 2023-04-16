@@ -22,24 +22,6 @@ In the final step of the project, the application is updated to display the weat
 
 Note that you need an API key to use most weather services. Do not save the API key to source control or hardcode it into your source code. Instead, use an environment variable to store the key. You can access the value of the key from the process.env object.
 
-When starting the application, use the following command to set the API key:
-
-Markdown is a lightweight markup language based on the formatting conventions
-that people naturally use in email.
-As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
-This text you see here is *actually- written in Markdown! To get a feel
-for Markdown's syntax, type some text into the left window and
-watch the results in the right.
-
 ## Tech
 
 This application uses a number of open source projects to work properly:
@@ -57,6 +39,7 @@ Install the dependencies and devDependencies and start the server.
 ```sh
 npm i
 npm start
+The project should then run in your local environment [localhost://3000]
 ```
 
 For production environments...
